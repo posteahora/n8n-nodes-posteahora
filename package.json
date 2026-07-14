@@ -1,0 +1,54 @@
+{
+  "name": "n8n-nodes-posteahora",
+  "version": "0.1.0",
+  "description": "n8n community node for PosteAhora — schedule and publish social posts across Instagram, X, LinkedIn, Threads, Facebook, TikTok and more.",
+  "keywords": [
+    "n8n-community-node-package",
+    "posteahora",
+    "social media",
+    "scheduling",
+    "social media scheduling"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/posteahora/n8n-nodes-posteahora#readme",
+  "author": {
+    "name": "PosteAhora",
+    "url": "https://posteahora.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/posteahora/n8n-nodes-posteahora.git"
+  },
+  "bugs": {
+    "url": "https://github.com/posteahora/n8n-nodes-posteahora/issues"
+  },
+  "engines": {
+    "node": ">=18.10"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && gulp build:icons",
+    "dev": "tsc --watch",
+    "prepublishOnly": "npm run build"
+  },
+  "files": [
+    "dist"
+  ],
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/PosteAhoraApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/PosteAhora/PosteAhora.node.js"
+    ]
+  },
+  "peerDependencies": {
+    "n8n-workflow": "*"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "n8n-workflow": "*",
+    "typescript": "^5.6.0"
+  }
+}
