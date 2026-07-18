@@ -39,7 +39,7 @@ export class PosteAhora implements INodeType {
 					{
 						name: 'Get Accounts',
 						value: 'getAccounts',
-						description: 'List connected social accounts (call first to get account IDs)',
+						description: "List the credential's workspace connected social accounts (call first to get account IDs)",
 						action: 'List connected social accounts',
 					},
 					{
@@ -51,7 +51,7 @@ export class PosteAhora implements INodeType {
 					{
 						name: 'Get Posts',
 						value: 'getPosts',
-						description: 'List your posts',
+						description: "List your workspace's posts",
 						action: 'List posts',
 					},
 					{
