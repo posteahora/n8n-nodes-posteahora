@@ -38,6 +38,10 @@ the package there.
 
 The credential is testable — n8n validates it against `GET /accounts` on save.
 
+> **Workspaces:** a key is bound to one workspace, so the node acts on that
+> workspace's accounts, posts and ideas only. Use a key from another workspace to
+> act there. A viewer-role key can read but not create or publish posts (`403`).
+
 ## Operations
 
 | Operation | Description |
