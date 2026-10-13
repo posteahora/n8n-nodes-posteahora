@@ -2,7 +2,7 @@
 
 An [n8n](https://n8n.io) community node for [PosteAhora](https://posteahora.com) —
 schedule and publish social posts across Instagram, X/Twitter, LinkedIn, Threads,
-Facebook, TikTok and more, right from your workflows.
+Facebook, TikTok, Google Business and more, right from your workflows.
 
 Build automations like *"new row in a sheet → generate caption → publish to every
 channel"* without touching code.

@@ -99,7 +99,7 @@ export class PosteAhora implements INodeType {
 								name: 'platform',
 								type: 'string',
 								default: '',
-								placeholder: 'instagram, twitter, linkedin, threads, facebook, tiktok…',
+								placeholder: 'instagram, twitter, linkedin, threads, facebook, tiktok, google_business…',
 							},
 							{
 								displayName: 'Account ID',
