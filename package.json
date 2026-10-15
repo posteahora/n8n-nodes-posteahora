@@ -27,7 +27,7 @@
   },
   "main": "index.js",
   "scripts": {
-    "build": "tsc && gulp build:icons",
+    "build": "tsc && node scripts/copy-icons.mjs",
     "dev": "tsc --watch",
     "prepublishOnly": "npm run build"
   },
@@ -47,7 +47,6 @@
     "n8n-workflow": "*"
   },
   "devDependencies": {
-    "gulp": "^5.0.0",
     "n8n-workflow": "*",
     "typescript": "^5.6.0"
   }
